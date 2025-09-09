@@ -1,0 +1,33 @@
+body{
+    font-family: comic sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+
+main{    
+    max-width: 56rem;
+    margin-inline: auto; 
+}
+
+nav{
+    font-size: xx-large;
+    background-color: rgb(68, 254, 0);
+    color: rgb(0, 51, 255);
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10rem;
+    li > a{
+        text-decoration: none;
+    }
+    li > a:hover{
+        text-decoration: underline;
+    }
+}
